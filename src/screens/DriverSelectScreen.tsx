@@ -95,7 +95,7 @@ const DriverSelectScreen = () => {
             showsVerticalScrollIndicator={false}
           />
           <View style={styles.buttonContainer}>
-            {drivers.length > 0 && (
+            {drivers.length === 10 && (
               <Button
                 title="next"
                 onPress={onNextPagePress}
